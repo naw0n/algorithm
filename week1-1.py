@@ -1,12 +1,11 @@
 # boj27930
 # https://www.acmicpc.net/problem/27930
 
-yonsei = ['Y','O','N','S','E','I']
-korea = ['K','O','R','E','A']
-yNum, kNum = 0
+yonsei = "YONSEI"
+korea = "KOREA"
 
-input = str(input())
-element = list(input)
+yNum = 0
+kNum = 0
 
 for i in input():
     if yonsei[yNum] == i: 
